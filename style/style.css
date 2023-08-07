@@ -1,0 +1,597 @@
+/* we select the universal rules for our webpage */
+*{
+    margin: auto;
+    font-family: Work Sans;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100vw;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+header img{
+    height: 40px;
+    width: 268px;
+}
+
+
+.x{
+    width: 40px;
+    aspect-ratio: auto 40 /40;
+    height: 40px;
+    margin-left: 47%;
+      
+}
+
+
+
+.about{
+    color: #00b39b;
+    text-decoration: none;
+}
+
+.about:hover{
+    color: #00b39b;
+}
+
+.career{
+    color:  #ababab;
+}
+
+.career:hover{
+    color: #00b39b;
+}
+
+.departments{
+    color: #ababab;
+}
+
+.departments:hover{
+    color: #00b39b;
+}
+
+.cover-content{
+    color: #00b39b;
+    font-size: 2.3rem;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 30px;
+    font-family: Work Sans, Arial, sans-serif;
+    margin-left: 22%
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+.p-column{
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 250px;
+    box-sizing: border-box;
+    gap: 30px
+    
+}
+
+.p-column p{
+    font-family: "Roboto", sans-serif;
+    margin: 0 0 10px;
+}
+
+
+
+
+
+
+
+.nav-items{
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* selects the styles for all childern */
+.nav-items > *{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.card-section{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 3.75rem auto 2.5rem;
+    max-width: 1015px;
+    padding: 0 20px;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+    font-family: Work Sans, Arail, sans-serif;
+    margin-bottom: -16px;
+}
+
+.card1{
+    background-color: #00ccb1;
+    height: 360px;
+    border-radius: 10px;
+    
+}
+
+
+#main1{
+    padding-top: 40px;
+    padding: 42px 20px 0;
+    padding-bottom: 120px;
+    
+}
+
+#main2{
+    padding-top: 40px;
+    padding: 42px 42px 0 ;
+    padding-bottom: 103px
+    
+}
+
+#main3{
+    padding: 40px;
+    padding: 42px 28px 0;
+    padding-bottom: 20px
+}
+
+.card2{
+    background-color: #3d83df;
+   
+    height: 360px;
+    border-radius: 10px;
+    
+}
+
+.card3{
+    background-color: #1b2734;
+    height: 360px;
+    border-radius: 10px;
+
+}
+
+#card3-title{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0.3em 0;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+#card2-title{
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 0.3em 0;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+#card1-title{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0.3em 0;
+    width: 100%;
+    letter-spacing: 1px; 
+
+}
+
+#card1-title p{
+    font-family: "Work Sans" sans-serif;
+}
+
+/* all the button classes will have the mouse pointing on hover */
+button{
+    cursor: pointer;
+}
+
+
+.card1 select{
+    border: none;
+    background-color: #00ccb1;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 20px;
+
+}
+
+.card2 select{
+    border: none;
+    background-color: #3d83df;
+    margin-left: 10px;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 35px;
+    
+}
+
+.card3 select{
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 20px;
+    margin-left: 8px;
+}
+
+.card-section p{
+font-size: 18px;
+font-weight: 200;
+}
+
+
+.sponsor-section{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.sponsor-section div{
+    display: flex;
+    gap: 4em;
+    width: 60%;
+
+}
+
+.section-title p{
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding: 1em;
+    color: #00b39b;
+    font-weight: 300;
+    padding-bottom: 222px;
+}
+
+.section-logo{
+    
+    flex-wrap: wrap;
+    
+}
+
+.section-logo img{
+    width: 5.1rem;
+    object-fit: contain;
+}
+
+.info-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 50px;
+}
+
+.sec-header{
+    font-family: Work sans-serif;
+    padding-top: 60px;
+}
+
+.sec-header h2{
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.sec-header p{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #747474;
+    padding-bottom: 50px;
+}
+
+.section-4box{
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+  
+}
+.section-4box div{
+    height: 500px;
+    width: 250px;
+}
+
+.first-2box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.section-4box h3{
+    font-size:1.65em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.section-4box p{
+    font-size: 1em;
+    font-weight: 400;
+    font-family: Roboto sans-serif Arial, Helvetica, sans-serif;
+    color: #747474;
+}
+
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.section5 h3{
+    font-size: 2.15em;
+    color: #00b39b;
+    font-family:  Work Sans;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+
+}
+
+.section5 p{
+    margin: 1.6em 0;
+    line-height: 1.715;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #747474;
+}
+
+.leader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.patients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+.second-2box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.appointments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.appointments h3{
+    padding-bottom: 10px;
+}
+
+.active-doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+.section6 div{
+    border-radius: 3%;
+    margin: 0.44%;
+}
+
+.section6 p{
+    font-size: medium;
+    color: #747474;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.section6 button{
+    margin-top: 0.5cm;
+    display: flex;
+    gap: 2cm;
+    justify-content: center;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 12px;
+    border-bottom: 20px;
+
+}
+
+.section6, button b{
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 550;
+
+}
+
+.country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.country div:hover{
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+div .btns{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btns p{
+    margin-top: 8px;
+}
+
+.section7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: #ababab;
+    
+}
+
+.section7 h1{
+    font-size: 2.143em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+}
+
+.section7 button{
+    margin-left: 120px;
+    background-color: #3d83df;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    overflow: visible;
+    font: 10px !important;
+     padding: 30px;
+    border-radius: 4px;
+    text-align: center;
+   border: #fff; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    margin-right: 120px;
+}
+
+.section7 button {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer a{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+footer p{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-decoration: none;
+}
